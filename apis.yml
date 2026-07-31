@@ -1,7 +1,26 @@
 aid: nomiku
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nomiku.png
 name: nomiku
-description: nomiku is a company surfaced as a portfolio company of slow-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nomiku (Y Combinator W15, backed by Slow Ventures) was a consumer-hardware
+  startup that built an affordable WiFi-connected sous-vide immersion circulator and
+  the companion Tender recipe app, later pivoting to the Nomiku Meals ready-to-cook
+  subscription paired with the Nomiku Smart Cooker. The company emailed customers on
+  December 13, 2019 that it was discontinuing the Smart Cooker and Meals and suspending
+  operations. It exposed no public developer API, SDK, or documentation surface; the
+  device was controlled through a private mobile app and cloud backend. Retained in
+  the API Evangelist network as a portfolio-lead identity record for historical and
+  investor-graph completeness only.
 url: https://raw.githubusercontent.com/api-evangelist/nomiku/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +28,32 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-lifecycle-status: defunct
+x-lifecycle-note: Suspended operations 2019-12-13; consumer hardware, no public API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Consumer Hardware
+- Sous Vide
+- Kitchen
+- IoT
+- Food Tech
+- Defunct
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://nomiku.com
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Nomiku
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
