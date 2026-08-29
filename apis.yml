@@ -33,6 +33,8 @@ description: Nomiku (Y Combinator W15, backed by Slow Ventures) was a consumer-h
   the API Evangelist network as a portfolio-lead identity record for historical and
   investor-graph completeness only.
 url: https://raw.githubusercontent.com/api-evangelist/nomiku/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
